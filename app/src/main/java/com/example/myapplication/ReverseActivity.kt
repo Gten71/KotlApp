@@ -17,7 +17,7 @@ class ReverseActivity : AppCompatActivity() {
         val editText = findViewById<EditText>(R.id.editTexts)
 
         // Получаем ссылку на TextView
-        val textView = findViewById<TextView>(R.id.textView)
+        val textView = findViewById<TextView>(R.id.result_text)
 
         // Находим кнопку и устанавливаем слушатель события нажатия
         val button = findViewById<Button>(R.id.Ok_button)
