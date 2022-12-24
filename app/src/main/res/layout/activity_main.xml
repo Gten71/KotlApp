@@ -15,9 +15,9 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
     <TextView
-        android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/input_label" />
+        android:text="@string/text_for_main"
+        android:gravity="center"/>
 
 </LinearLayout>
