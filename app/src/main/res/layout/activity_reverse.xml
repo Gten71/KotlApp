@@ -24,7 +24,7 @@
         android:text="@string/reverse" />
     <Button
         android:layout_marginLeft="10pt"
-        android:id="@+id/Ok_button"
+        android:id="@+id/Ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ok" />
