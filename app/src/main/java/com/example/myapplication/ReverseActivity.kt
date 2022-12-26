@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -18,14 +19,24 @@ class ReverseActivity : AppCompatActivity() {
         okButton=findViewById(R.id.Ok)
         result=findViewById(R.id.result_text)
         setText=findViewById(R.id.editTexts)
-
+        val sharedPref = getSharedPreferences("myPrefs", Context.MODE_PRIVATE)
+        val text = sharedPref.getString("text", "")
+        result.text = text
         okButton.setOnClickListener {
             if (rev.isChecked) {
                 val text = setText.text.toString()
                 val reversedText = text.reversed()
                 result.text = reversedText
+
             }
+            val text = result.text.toString()
+            val sharedPref = getSharedPreferences("myPrefs", Context.MODE_PRIVATE)
+            val editor = sharedPref.edit()
+            editor.putString("text", text)
+            editor.apply()
+
         }
+
 
         val buttonBacks = findViewById<Button>(R.id.buttons_back)
         buttonBacks.setOnClickListener {
