@@ -4,19 +4,20 @@
     android:layout_width="match_parent"
     android:name=".AboutActivity"
     android:padding="10pt"
-
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/about_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Info" />
+        android:text="@string/Info"
+        android:textColor="#000000"/>
     <TextView
         android:id="@+id/about_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10pt"
-        android:text="@string/Info_text"/>
+        android:text="@string/Info_text"
+        android:textColor="#000000"/>
 
     <Button
         android:id="@+id/button_back"

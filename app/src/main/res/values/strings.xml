@@ -5,8 +5,8 @@
     <string name="menu_exit">Exit </string>
     <string name="input_label"/>
     <string name="Info">Информация о разработчике:</string>
-    <string name="Info_text">Максим Реснянский  21-ИСП-3
-        18 лет</string>
+    <string name="Info_text">Максим Реснянский  21-ИСП-3 18 лет</string>
+    <string name="text_explanation">Что бы воспользоваться функционалом выберете переключатель Reverse и нажмите кнопку Ок </string>
     <string name="text_for_main">Все основные кнопки находятся в правом верхнем углу надо просто нажать на 3 точки и кнопки появятся</string>
     <string name="uppercase">Uppercase</string>
     <string name="reverse">Reverse</string>
