@@ -6,18 +6,26 @@
     android:padding="10pt"
     android:layout_height="match_parent">
     <TextView
-        android:id="@+id/about_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Info"
         android:textColor="#000000"/>
     <TextView
-        android:id="@+id/about_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10pt"
         android:text="@string/Info_text"
-        android:textColor="#000000"/>
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:text="My funtionality web-site gten71.github.io/FirstWeb"
+        android:textColor="#000000"
+        android:clickable="true"
+        android:autoLink="web"/>
 
     <Button
         android:id="@+id/button_back"
