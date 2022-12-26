@@ -1,3 +1,2 @@
 # :)
-first app in AndroiStudio on Kotlin
-this app just reverse text
+first app in AndroiStudio on Kotlin. This app just reverse text
