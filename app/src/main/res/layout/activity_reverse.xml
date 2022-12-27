@@ -24,6 +24,11 @@
         android:layout_marginLeft="10dp"
         android:id="@+id/Clear_button"
         android:text="@string/Clear"/>
+    <CheckBox
+        android:id="@+id/uppercase_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uppercase" />
 
     <CheckBox
         android:id="@+id/reverse_checkbox"
