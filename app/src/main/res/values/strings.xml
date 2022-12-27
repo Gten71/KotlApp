@@ -11,6 +11,7 @@
     <string name="uppercase">Uppercase</string>
     <string name="reverse">Reverse</string>
     <string name="ok">Ok</string>
+    <string name="Clear">Clear</string>
     <string name="back">Back</string>
     <string name="cancel">Cancel</string>
 </resources>

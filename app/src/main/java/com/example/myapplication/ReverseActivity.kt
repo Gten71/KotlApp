@@ -11,6 +11,7 @@ class ReverseActivity : AppCompatActivity() {
     private lateinit var setText: EditText
     private lateinit var result: TextView
     private lateinit var rev: CheckBox
+    private lateinit var Clear: Button
     private lateinit var okButton:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +36,12 @@ class ReverseActivity : AppCompatActivity() {
             editor.putString("text", text)
             editor.apply()
 
+        }
+        Clear=findViewById(R.id.Clear_button)
+        Clear.setOnClickListener {
+            result.text = ""
+            rev.isChecked=false
+            setText.text.clear()
         }
 
 

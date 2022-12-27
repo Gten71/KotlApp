@@ -18,13 +18,18 @@
         android:gravity="center"
         android:textColor="#F00"
         android:text="" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Clear_button"
+        android:text="@string/Clear"/>
 
     <CheckBox
         android:id="@+id/reverse_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reverse"
-        />
+        android:text="@string/reverse" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,13 +38,13 @@
         android:text="@string/text_explanation"
         android:textColor="#000000"/>
     <Button
-        android:layout_marginLeft="10pt"
+        android:layout_marginLeft="10dp"
         android:id="@+id/Ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ok" />
     <Button
-        android:layout_marginLeft="10pt"
+        android:layout_marginLeft="10dp"
         android:id="@+id/buttons_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
