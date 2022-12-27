@@ -12,7 +12,7 @@ class ReverseActivity : AppCompatActivity() {
     private lateinit var result: TextView
     private lateinit var rev: CheckBox
     private lateinit var upper: CheckBox
-    private lateinit var Clear: Button
+    private lateinit var clear: Button
     private lateinit var okButton:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,8 +45,8 @@ class ReverseActivity : AppCompatActivity() {
 
 
         }
-        Clear=findViewById(R.id.Clear_button)
-        Clear.setOnClickListener {
+        clear=findViewById(R.id.Clear_button)
+        clear.setOnClickListener {
             result.text = ""
             upper.isChecked=false
             rev.isChecked=false
