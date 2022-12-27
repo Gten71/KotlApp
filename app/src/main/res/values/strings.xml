@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Reverse</string>
+    <string name="app_name">Texti</string>
     <string name="menu_reverse">Reverse and Uppercase text</string>
     <string name="menu_about">About </string>
     <string name="menu_exit">Exit </string>
