@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
+        android:hint="write here"
         />
 
     <TextView
@@ -17,6 +18,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="#F00"
+        android:hint="result here"
         android:text="" />
     <Button
         android:layout_width="wrap_content"
