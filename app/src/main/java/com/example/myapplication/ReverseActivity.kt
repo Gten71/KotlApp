@@ -65,6 +65,7 @@ class ReverseActivity : AppCompatActivity() {
             result.text = ""
             upper.isChecked=false
             rev.isChecked=false
+            lover.isChecked=false
             setText.text.clear()
         }
 
