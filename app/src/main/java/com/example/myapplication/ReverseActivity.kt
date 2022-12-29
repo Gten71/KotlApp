@@ -10,8 +10,8 @@ class ReverseActivity : AppCompatActivity() {
     private lateinit var setText: EditText
     private lateinit var result: TextView
     private lateinit var rev: CheckBox
-    private lateinit var upper: CheckBox
-    private lateinit var lower:CheckBox
+    private lateinit var upper: RadioButton
+    private lateinit var lower:RadioButton
     private lateinit var clear: Button
     private lateinit var okButton:Button
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -67,12 +67,12 @@ class ReverseActivity : AppCompatActivity() {
             lower.isChecked=false
             setText.text.clear()
         }
-        lower.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener { _, isChecked ->
-            upper.isEnabled = !isChecked
-        })
-        upper.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener { _, isChecked ->
-            lower.isEnabled = !isChecked
-        })
+//        lower.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener { _, isChecked ->
+//            upper.isEnabled = !isChecked
+//        })
+//        upper.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener { _, isChecked ->
+//            lower.isEnabled = !isChecked
+//        })
 
 
 
