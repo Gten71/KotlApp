@@ -6,7 +6,7 @@
     <string name="input_label"/>
     <string name="Info">Developer information:</string>
     <string name="Info_text">Maxim Resnyansky  group-21-ИСП-3 18 years</string>
-    <string name="text_explanation">To use the functionality, select the CheckBox that called -> Reverse or Uppercase and lowercase and click to Ок </string>
+    <string name="text_explanation">To use the functionality, select the CheckBox that called -> Reverse, Uppercase or lowercase and click to Ок </string>
     <string name="text_for_main">All the main buttons are in the upper right corner, you just need to click on 3 dots and the buttons will appear</string>
     <string name="uppercase">Uppercase</string>
     <string name="reverse">Reverse</string>
